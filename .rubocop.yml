@@ -1,0 +1,11 @@
+AllCops:
+  Exclude:
+    - 'vendor/**/*'
+    - 'spec/fixtures/**/*'
+    - 'tmp/**/*'
+  TargetRubyVersion: 2.5
+Metrics/BlockLength:
+  ExcludedMethods: ['describe', 'context']
+Metrics/LineLength:
+  Exclude:
+    - 'spec/**/*'
